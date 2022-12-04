@@ -29,7 +29,7 @@ overlaps ((low1, high1),(low2, high2))
     | otherwise = False
 
 part2 :: [RangePair] -> Int
-part2 = length . filter (overlaps)
+part2 = length . filter overlaps
 
 main :: IO ()
 main = do
