@@ -71,3 +71,11 @@ executable Day3
 executable Day4
     import:           day
     main-is:          Day4.hs
+
+executable Day5
+    import:           day
+    main-is:          Day5.hs
+    build-depends:    attoparsec,
+                      text,
+                      containers,
+                      transformers
