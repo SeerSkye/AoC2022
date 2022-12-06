@@ -79,3 +79,8 @@ executable Day5
                       text,
                       containers,
                       transformers
+
+executable Day6
+    import:           day
+    main-is:          Day6.hs
+    build-depends:    containers
